@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { HiAcademicCap } from "react-icons/hi";
+
 
 function Footer() {
   let date = new Date();
@@ -39,6 +39,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://scholar.google.com/citations?user=BEaJnt8AAAAJ"
+                style={{ color: "black" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <HiAcademicCap/>
               </a>
             </li>
           </ul>

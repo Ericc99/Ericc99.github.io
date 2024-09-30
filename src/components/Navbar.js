@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import { HiAcademicCap } from "react-icons/hi";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -38,9 +39,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        {/* <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+        </Navbar.Brand> */}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -62,14 +63,24 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            {/* <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -80,15 +91,15 @@ function NavBar() {
                 />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
+                href="https://www.linkedin.com/in/haozhe-cui-36a860171/"
+                target="_blank"
+                rel="noreferrer"
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <ImBlog style={{ marginBottom: "2px" }} /> LinkedIn
               </Nav.Link>
             </Nav.Item>
 
@@ -98,7 +109,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> LinkedIn
+                <HiAcademicCap style={{ marginBottom: "2px" }} /> Google Scholar
               </Nav.Link>
             </Nav.Item>
 
