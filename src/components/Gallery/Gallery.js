@@ -36,19 +36,50 @@ function Gallery() {
                     </h1>
                 </Col>
             </Row>
-            <wc-waterfall gap={10} cols={3}>
-                <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/1.jpg"/>
-                <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/2.jpg"/>
-                <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/3.jpg"/>
-                <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/4.jpg"/>
-                <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/5.jpg"/>
-                <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/6.jpg"/>
-                <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/7.jpg"/>
-                <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/8.jpg"/>
-                <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/9.jpg"/>
-                <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/10.jpg"/>
+            <Row>
+                <Col md={12} className="home-about-description">
+                    <h1 style={{ fontSize: "1.4em" }}>
+                        <span className="black"> <strong>2024</strong></span>
+                    </h1>
+                </Col>
+            </Row>
+            <Container>
+                <wc-waterfall gap={10} cols={3}>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2024/10.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2024/2.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2024/3.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2024/4.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2024/5.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2024/6.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2024/7.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2024/8.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2024/9.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2024/1.jpg"/>
 
-            </wc-waterfall>
+                </wc-waterfall>
+            </Container>
+            <Row>
+                <Col md={12} className="home-about-description">
+                    <h1 style={{ fontSize: "1.4em" }}>
+                        <span className="black"> <strong>2023</strong></span>
+                    </h1>
+                </Col>
+            </Row>
+            <Container>
+                <wc-waterfall gap={10} cols={3}>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/1.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/2.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/3.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/4.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/5.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/6.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/7.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/8.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/9.jpg"/>
+                    <img src="https://raw.githubusercontent.com/Ericc99/Ericc99.github.io/master/src/Assets/Photos/2023/10.jpg"/>
+
+                </wc-waterfall>
+            </Container>
         </Container>
     </Container>
   );
