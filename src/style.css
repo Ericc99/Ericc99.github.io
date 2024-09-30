@@ -1,9 +1,9 @@
 html {
-  --section-background-color: linear-gradient(
+  /* --section-background-color: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.582),
     rgba(12, 8, 24, 0.904)
-  );
+  ); */
 
   --image-gradient: linear-gradient(
     to bottom left,
@@ -11,10 +11,10 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #4f4f4f;
 }
 
-.purple {
+.black {
   color: var(--imp-text-color) !important;
 }
 
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: rgb(16, 19, 26);
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -48,7 +48,7 @@ button:focus {
 }
 
 /* --------- */
-/*Scrollbar   */
+/*  Scrollbar   */
 /* --------- */
 
 ::-webkit-scrollbar {
@@ -57,36 +57,44 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #b1cce7;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(107, 107, 107, 0.5);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(112, 111, 112, 0.911);
   border-radius: 12px;
+}
+
+
+/* link */
+.link{
+  color: #4f4f4f
 }
 
 /* --------- */
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #c8dae8 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(29, 17, 5, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
+  padding: 0.3rem 2rem 1rem !important;
   font-size: 1.2rem !important;
+  background-color: #c8dae8;
+  box-shadow: 0px 10px 10px 0px rgba(29, 17, 5, 0.171) !important;
 }
 
 .navbar-toggler {
@@ -97,7 +105,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #d9dbdb !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -151,16 +159,19 @@ button:focus {
   }
 }
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: #c8dae8 !important;
 }
 
 .logo {
+  /* height: 1.4em !important;
+  width: 2.5em !important; */
   height: 1.4em !important;
   width: 2.5em !important;
 }
 
+/* the words in navbar*/
 .navbar-nav .nav-link {
-  color: white !important;
+  color: black !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -194,7 +205,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #d9dbdb;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -256,17 +267,19 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  z-index: 888;
+  /* 放到最前面 */
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
+  padding-bottom: 0px !important;
   padding-top: 30px !important;
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 4.5rem 0 2rem !important;
   color: whitesmoke;
+  /* background-color: #d9dbdb; */
   text-align: left;
 }
 
@@ -276,22 +289,28 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 2.5em !important;
-  padding-left: 45px !important;
+  font-size: 2.6em !important;
+  padding-left: 50px !important;
 }
 
-.main-name {
-  color: #cd5ff8;
+.short-bio {
+  font-size: 1.0em !important;
+  padding-left: 50px !important;
+  margin-top: 20px !important;
+}
+.main-name { 
+  /* color of name */
+  color: #4f4f4f;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #454545 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #454545 !important;
 }
 
 @media (max-width: 767px) {
@@ -325,16 +344,63 @@ button:focus {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  padding-top: 0px !important;
   padding-bottom: 20px !important;
-  text-align: center;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  text-align: left;
 }
 
 .home-about-body {
-  padding-top: 50px;
-  font-size: 1.2em !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1em !important;
+  color: #4f4f4f !important;
   text-align: left;
 }
+
+.publication-block{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 1em !important;
+  color: #4f4f4f !important;
+  text-align: left;
+}
+.publication-title{
+  color: black !important;
+  text-align: left;
+}
+.publication-authors{
+  color: #4f4f4f !important;
+  text-align: left;
+}
+.publication-conference{
+  color: black !important;
+  text-align: left;
+  font-weight: bold;
+  /* margin-top: -3%; */
+}
+.publication-link{
+   color: black;
+   font-weight: bold;
+   text-decoration:none
+}
+.publication-link:hover{
+  color: #A27B5C;
+  text-decoration:none
+}
+.pub-link{
+  color: #4f4f4f;
+  text-decoration:none
+}
+.pub-link:hover{
+ color: #A27B5C;
+ text-decoration:none
+}
+.pub-icon{
+  color: #4f4f4f;
+}
+
 
 .home-about-social {
   text-align: center !important;
@@ -358,7 +424,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: #c8dae8 !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -395,14 +461,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #454545 !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: #92afd6;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -428,7 +494,7 @@ button:focus {
 
 .footer h3 {
   font-size: 1em;
-  color: white !important;
+  color: black !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
@@ -460,17 +526,17 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
+  box-shadow: 0 4px 5px 3px #A27B5C !important;
+  color: #454545!important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height: 100% !important;
+  height: 600px !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px #DCD7C9!important;
 }
 
 .blog-card {
@@ -518,21 +584,21 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #2C3639 !important;
+  border-color: #2C3639 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #3F4E4F !important;
+  border-color: #3F4E4F !important;
 }
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: #4f4f4f!important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -727,7 +793,8 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: black !important;
+  /* border-color: #18171886 !important; */
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -735,8 +802,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #18171886 !important;
+  border-color: #18171886 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
