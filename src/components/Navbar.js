@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import { HiAcademicCap } from "react-icons/hi";
+import { HiMiniCamera } from "react-icons/hi2";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -105,13 +106,24 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://www.linkedin.com/in/haozhe-cui-36a860171/"
+                href="https://scholar.google.com/citations?user=BEaJnt8AAAAJ"
                 target="_blank"
                 rel="noreferrer"
               >
                 <HiAcademicCap style={{ marginBottom: "2px" }} /> Google Scholar
               </Nav.Link>
             </Nav.Item>
+
+            <Nav.Item>
+                <Nav.Link
+                    as={Link}
+                    to="/gallery"
+                    onClick={() => updateExpanded(false)}
+                >
+                    <HiMiniCamera style={{ marginBottom: "2px" }} /> Gallery
+                </Nav.Link>
+                </Nav.Item>       
+            </Nav>
 
             <Nav.Item className="fork-btn">
               <Button
@@ -120,10 +132,8 @@ function NavBar() {
                 className="fork-btn-inner"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
-          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
