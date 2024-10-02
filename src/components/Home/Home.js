@@ -22,19 +22,19 @@ function Home() {
                 I am <strong>Eric CUI Haozhe</strong>, a second-year MPhil student at {}
                 <a className="link" href="https://mucslab-dev.hkust.edu.hk/"><strong>HKUST MuCSLab</strong></a>, supervised by {}
                 <a className="link" href="https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jinglei-yang-maeyang" target="_blank" rel="noreferrer"><strong>Prof. Jinglei YANG</strong></a>. My research interests include {}
-                <strong>Microcontrollers</strong>, <strong>Robotics</strong> and <strong>AI</strong>. In particluar <strong>cross-disciplinary projcets</strong>. Recently, I am concentrating on <strong>High-throughput Lab Automation for Material Science</strong>.
+                <strong>Microcontrollers</strong>, <strong>Robotics</strong>, and <strong>AI</strong> in particular <strong>cross-disciplinary projects</strong>. Recently, I have been focusing on <strong>High-throughput Lab Automation for Material Science</strong>.
             </p>
 
             <p className="short-bio"  style={{color: '#4f4f4f'}}> 
-                I received my B.S. degree from HKUST in 2023, with major in Electronics and Computer Engineering (ELEC). During my undergraduate study, I was honored to have worked with {}
+                I received my B.S. degree from HKUST in 2023, with a major in Electronics and Computer Engineering (ELEC). During my undergraduate study, I was honored to have worked with {}
                 <a className="link" href="https://eesling.home.ece.ust.hk/" target="_blank" rel="noreferrer"><strong>Prof. Ling SHI</strong></a> and 
                 <a className="link" href="https://eebert.home.ece.ust.hk/"><strong> Prof. Bertram SHI</strong></a>. During the first year of my MPhil studies, I worked with 
                 <a className="link" href="https://facultyprofiles.hkust.edu.hk/profiles.php?profile=zexiang-li-eezxli" target="_blank" rel="noreferrer"><strong> Prof. Zexiang LI </strong></a> 
-                on entrepreneurship project regarding <strong>Construction Robotics</strong>.
+                on an entrepreneurship project regarding <strong>Construction Robotics</strong>.
             </p>
 
             <p className="short-bio"  style={{color: '#4f4f4f'}}> 
-                I am also the acting presendent of the HKUTS photography union and an enthusiastic photographer.
+                I am also the acting president of the HKUTS photography union and an enthusiastic photographer.
             </p>
 
                 

@@ -50,7 +50,7 @@ function ProjectCards(props) {
           HKSTP, Hong Kong
           </p>
           <p className="publication-authors">
-            A STM32-based portable double-pulse tester for IGBT devices was implemented and tested to optimize the traditional testing measures. 
+            An STM32-based portable double-pulse tester for IGBT devices was implemented and tested to optimize the traditional testing measures. 
           </p>
         </Col>
       </Row>
@@ -76,8 +76,8 @@ function ProjectCards(props) {
           the speed of a human. 
           </p>
           <p className="publication-authors">
-            Acted as the electrical and algorithm engineer of the team. Performed multi-sensor data fusion including lidar, IMU and odometer, further implemented gmapping-based SLAM navigation
-            stack. Developed a RF-signal-based remote control system. Designed a ROS and ESP32 based central control system.
+            Acted as the electrical and algorithm engineer of the team. Performed multi-sensor data fusion including lidar, IMU, and odometer, further implemented gmapping-based SLAM navigation
+            stack. Developed an RF-signal-based remote control system. Designed a ROS and ESP32-based central control system.
           </p>
         </Col>
       </Row>
