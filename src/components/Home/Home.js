@@ -22,7 +22,7 @@ function Home() {
                 I am <strong>Eric CUI Haozhe</strong>, a second-year MPhil student at {}
                 <a className="link" href="https://mucslab-dev.hkust.edu.hk/"><strong>HKUST MuCSLab</strong></a>, supervised by {}
                 <a className="link" href="https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jinglei-yang-maeyang" target="_blank" rel="noreferrer"><strong>Prof. Jinglei YANG</strong></a>. My research interests include {}
-                <strong>Microcontrollers</strong>, <strong>Robotics</strong>, and <strong>AI</strong> in particular <strong>cross-disciplinary projects</strong>. Recently, I have been focusing on <strong>High-throughput Lab Automation for Material Science</strong>.
+                <strong>Microcontrollers</strong>, <strong>Robotics</strong>, and <strong>AI</strong>, in particular <strong>cross-disciplinary projects</strong>. Recently, I have been focusing on <strong>High-throughput Lab Automation for Material Science</strong>.
             </p>
 
             <p className="short-bio"  style={{color: '#4f4f4f'}}> 
