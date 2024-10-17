@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Paper1 from "../../Assets/paper1.jpg";
-import Paper2 from "../../Assets/paper2.jpg";
+import Paper2 from "../../Assets/layout.png";
 import { FaRegFilePdf } from "react-icons/fa";
 
 
@@ -40,11 +40,9 @@ function PublicationCards(props) {
             />
             </Col>
             <Col md={9}>
-                <a className="publication-link" href="https://www.sciencedirect.com/science/article/pii/S0360319922027616">Integration of a well-designed biomass pair in electrochemical hydrogen pump reactor: ethylene glycol dehydrogenation and levulinic acid hydrogenation</a>
-                <p className="publication-authors">Fujun Cui, Shiqi Huang, Rui Jin, <strong>Haozhe Cui</strong>, Xuemei Wu, Yan Dai, Minggang Guo, Gaohong He</p>
-                <p className="publication-conference">International Journal of Hydrogen Energy</p>
-                <FaRegFilePdf className="pub-icon" /> &nbsp;
-                {<a className="pub-link" href="https://www.sciencedirect.com/science/article/pii/S0360319922027616" style={{ textDecoration: "none" }} target="_blank" rel="noreferrer">PDF</a>}
+                <p className="publication-link" >A Modelling and Optimization Methodology for High-Throughput Synthesis Automation Systems</p>
+                <p className="publication-authors">Co-First Author</p>
+                <p className="publication-conference">Under preparations for IEEE Robotics and Automation Letters (RA-L)</p>
             </Col>
         </Row>
     </Container>
